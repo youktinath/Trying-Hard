@@ -73,10 +73,15 @@ public class TestMain {
 		int[] nums = {0,1,4,0,3,0,1,0,-1,0};
 		mz.moveZeroes(nums);*/
 		
-		ImplementstrStr iss = new ImplementstrStr();
+		/*ImplementstrStr iss = new ImplementstrStr();
 		String haystack = "mississippi";
 		String needle = "issip";
-		System.out.println(iss.strStr(haystack, needle));
+		System.out.println(iss.strStr(haystack, needle));*/
+		
+		SearchInsertPosition sip = new SearchInsertPosition();
+		int[] nums = {1};
+		int target = 1;
+		System.out.println(sip.searchInsert(nums, target));
 	}
 
 }

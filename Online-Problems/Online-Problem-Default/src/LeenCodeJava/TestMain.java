@@ -78,10 +78,18 @@ public class TestMain {
 		String needle = "issip";
 		System.out.println(iss.strStr(haystack, needle));*/
 		
-		SearchInsertPosition sip = new SearchInsertPosition();
+		/*SearchInsertPosition sip = new SearchInsertPosition();
 		int[] nums = {1};
 		int target = 1;
-		System.out.println(sip.searchInsert(nums, target));
+		System.out.println(sip.searchInsert(nums, target));*/
+		
+		/*MaximumSubarray ms = new MaximumSubarray();
+		int[] nums = {-2,-1};
+		System.out.println(ms.maxSubArray(nums));*/
+		
+		LengthOfLastWord lolw = new LengthOfLastWord();
+		String s = "     ";
+		System.out.println(lolw.lengthOfLastWord(s));
 	}
 
 }

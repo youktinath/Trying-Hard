@@ -87,9 +87,27 @@ public class TestMain {
 		int[] nums = {-2,-1};
 		System.out.println(ms.maxSubArray(nums));*/
 		
-		LengthOfLastWord lolw = new LengthOfLastWord();
+		/*LengthOfLastWord lolw = new LengthOfLastWord();
 		String s = "     ";
-		System.out.println(lolw.lengthOfLastWord(s));
+		System.out.println(lolw.lengthOfLastWord(s));*/
+		
+		/*PlusOne po = new PlusOne();
+		int[] digits = {1,2,3};
+		for (int e: po.plusOne(digits)) System.out.println(e);*/
+		
+		/*AddBinary ab = new AddBinary();
+		String a = "1001";
+		String b = "";
+		System.out.println(ab.addBinary(a, b));*/
+		
+		/*Sqrt sqrt = new Sqrt();
+		int x = 4;
+		System.out.println(sqrt.mySqrt(x));*/
+		
+		NStringSubstring nss = new NStringSubstring();
+		String[] patterns = {"abc", "ab", "c", "cd", "ab", "d"};
+		String word = "aabcad";
+		System.out.println(nss.nStringSubstring(patterns, word));
 	}
 
 }

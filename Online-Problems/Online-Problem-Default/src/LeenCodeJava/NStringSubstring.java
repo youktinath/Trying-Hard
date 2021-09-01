@@ -8,6 +8,23 @@ package LeenCodeJava;
 
 public class NStringSubstring {
 	public int nStringSubstring (String[] patterns, String word) {
-		return 0;
+		int sum = 0;
+		for (String s : patterns) {
+			if (isSubstring(word, s)) sum ++;
+		}
+		return sum;
+	}
+	public boolean isSubstring(String s, String word) {
+		if (s.length() < word.length()) return false;
+		else {
+			int i = 0;
+			while (i < s.length()) {
+				if (s.charAt(i) == word.charAt(0) && s.substring(i).length() >= word.length()) {
+					if (s.substring(i, i+word.length()).equals(word)) return true;
+					else i++;
+				} else i++;
+			}
+		}
+		return false;
 	}
 }

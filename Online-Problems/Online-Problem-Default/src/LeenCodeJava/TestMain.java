@@ -104,10 +104,16 @@ public class TestMain {
 		int x = 4;
 		System.out.println(sqrt.mySqrt(x));*/
 		
-		NStringSubstring nss = new NStringSubstring();
+		/*NStringSubstring nss = new NStringSubstring();
 		String[] patterns = {"abc", "ab", "c", "cd", "ab", "d"};
-		String word = "aabcad";
-		System.out.println(nss.nStringSubstring(patterns, word));
+		String word = "aabcadd";
+		//System.out.println(nss.isSubstring(word, "abc"));
+		System.out.println(nss.nStringSubstring(patterns, word));*/
+		
+		ClimbingStairs cs = new ClimbingStairs();
+		int n = 5;
+		//System.out.println(cs.climbStairs(n));
+		System.out.println(cs.binomialCoeff(100, 13));
 	}
 
 }
